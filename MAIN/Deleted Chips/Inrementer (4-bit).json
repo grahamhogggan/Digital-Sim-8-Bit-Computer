@@ -1,0 +1,44 @@
+{
+  "ChipType": 0,
+  "Colour": {
+    "r": 0.238420889,
+    "g": 0.213272214,
+    "b": 0.07867079,
+    "a": 1
+  },
+  "Displays": null,
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":331989493,
+      "Position":{
+        "x":-7.25351,
+        "y":0.18398
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "Name": "Inrementer (4-bit)",
+  "NameLocation": 0,
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":708155230,
+      "Position":{
+        "x":-1.37143,
+        "y":0.1893
+      },
+      "BitCount":4,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "Size": {
+    "x": 1.7,
+    "y": 0.5
+  },
+  "SubChips":[],
+  "Wires":[]
+}

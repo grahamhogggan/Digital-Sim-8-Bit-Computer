@@ -1,0 +1,110 @@
+{
+  "ChipType": 0,
+  "Colour": {
+    "r": 0.737921536,
+    "g": 0.463729173,
+    "b": 0.770392954,
+    "a": 1
+  },
+  "Displays": null,
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":857619511,
+      "Position":{
+        "x":-9.94628,
+        "y":-0.19819
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"KEY",
+      "ID":1453601868,
+      "Position":{
+        "x":-9.95658,
+        "y":-0.80045
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "Name": "TinyGate",
+  "NameLocation": 0,
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1654511267,
+      "Position":{
+        "x":-5.67897,
+        "y":-0.24966
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "Size": {
+    "x": 1.325,
+    "y": 0.5
+  },
+  "SubChips":[
+    {
+      "Name":"Chooser",
+      "ID":1418178563,
+      "Label":"",
+      "Position":{
+        "x":-7.8255,
+        "y":-0.35261
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":853565387}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1453601868
+      },
+      "TargetPinAddress":{
+        "PinID":264356924,
+        "PinOwnerID":1418178563
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":853565387,
+        "PinOwnerID":1418178563
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1654511267
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":857619511
+      },
+      "TargetPinAddress":{
+        "PinID":1237208394,
+        "PinOwnerID":1418178563
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ]
+}

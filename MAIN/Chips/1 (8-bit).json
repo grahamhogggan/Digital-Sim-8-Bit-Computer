@@ -1,0 +1,84 @@
+{
+  "ChipType": 0,
+  "Colour": {
+    "r": 0.770112038,
+    "g": 0.6097354,
+    "b": 0.290998816,
+    "a": 1
+  },
+  "Displays": null,
+  "InputPins":[],
+  "Name": "1 (8-bit)",
+  "NameLocation": 0,
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1409928912,
+      "Position":{
+        "x":6.08409,
+        "y":0.69226
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":2
+    }
+  ],
+  "Size": {
+    "x": 1.175,
+    "y": 0.5
+  },
+  "SubChips":[
+    {
+      "Name":"1-8BIT",
+      "ID":717598884,
+      "Label":"",
+      "Position":{
+        "x":2.53658,
+        "y":0.74249
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":8}],
+      "InternalData":null
+    },
+    {
+      "Name":"NOT",
+      "ID":1638124418,
+      "Label":"",
+      "Position":{
+        "x":0.72829,
+        "y":-0.04236
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2128780866}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":8,
+        "PinOwnerID":717598884
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1409928912
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2128780866,
+        "PinOwnerID":1638124418
+      },
+      "TargetPinAddress":{
+        "PinID":7,
+        "PinOwnerID":717598884
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ]
+}

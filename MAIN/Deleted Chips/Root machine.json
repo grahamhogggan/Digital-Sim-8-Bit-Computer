@@ -1,0 +1,85 @@
+{
+  "ChipType": 0,
+  "Colour": {
+    "r": 0.670054734,
+    "g": 0.0163828,
+    "b": 0.233959034,
+    "a": 1
+  },
+  "Displays": null,
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":28823929,
+      "Position":{
+        "x":-5.85569,
+        "y":-0.19742
+      },
+      "BitCount":4,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "Name": "Root machine",
+  "NameLocation": 0,
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1147004220,
+      "Position":{
+        "x":0.33089,
+        "y":-1.11317
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":1
+    }
+  ],
+  "Size": {
+    "x": 1.25,
+    "y": 0.5
+  },
+  "SubChips":[
+    {
+      "Name":"Computer",
+      "ID":939396602,
+      "Label":"",
+      "Position":{
+        "x":-3.01056,
+        "y":-0.11353
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":293444665},{"PinColour":0,"PinID":328381716},{"PinColour":0,"PinID":2133292873},{"PinColour":0,"PinID":932120534}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":932120534,
+        "PinOwnerID":939396602
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1147004220
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":28823929
+      },
+      "TargetPinAddress":{
+        "PinID":1201327152,
+        "PinOwnerID":939396602
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ]
+}
