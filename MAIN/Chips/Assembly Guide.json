@@ -1,0 +1,153 @@
+{
+  "Name": "Assembly Guide",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.4,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 0.522483,
+    "g": 0.5202218,
+    "b": 0.655421734,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"Open Register A",
+      "ID":665375068,
+      "Label":"1",
+      "Position":{
+        "x":-1.45818,
+        "y":2.49063
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":169569561}],
+      "InternalData":null
+    },
+    {
+      "Name":"Open Register B",
+      "ID":876469532,
+      "Label":"2",
+      "Position":{
+        "x":0.48418,
+        "y":2.48431
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":600849967}],
+      "InternalData":null
+    },
+    {
+      "Name":"Halve Reg A (ASM)",
+      "ID":352179742,
+      "Label":"7",
+      "Position":{
+        "x":4.93608,
+        "y":0.62637
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":30579471}],
+      "InternalData":null
+    },
+    {
+      "Name":"Add both registers",
+      "ID":602275041,
+      "Label":"32",
+      "Position":{
+        "x":-1.53127,
+        "y":0.62732
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1108160226}],
+      "InternalData":null
+    },
+    {
+      "Name":"HALT",
+      "ID":1613105711,
+      "Label":"127",
+      "Position":{
+        "x":-1.7323,
+        "y":-1.93996
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1290265141}],
+      "InternalData":null
+    },
+    {
+      "Name":"Change ADR",
+      "ID":1871002124,
+      "Label":"5",
+      "Position":{
+        "x":-0.17759,
+        "y":-0.5386
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":915272251},{"PinColour":0,"PinID":576746779}],
+      "InternalData":null
+    },
+    {
+      "Name":"Write NUM",
+      "ID":349438444,
+      "Label":"127+num",
+      "Position":{
+        "x":-1.67557,
+        "y":-0.5108
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":846144571}],
+      "InternalData":null
+    },
+    {
+      "Name":"multiply both register",
+      "ID":191547991,
+      "Label":"3",
+      "Position":{
+        "x":2.87271,
+        "y":0.6291
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":874451761}],
+      "InternalData":null
+    },
+    {
+      "Name":"subtract the registers",
+      "ID":1349165991,
+      "Label":"64",
+      "Position":{
+        "x":0.50194,
+        "y":0.65154
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1682849480}],
+      "InternalData":null
+    },
+    {
+      "Name":"Write Val 0",
+      "ID":1309230027,
+      "Label":"8",
+      "Position":{
+        "x":-1.72615,
+        "y":1.59267
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2030944480}],
+      "InternalData":null
+    },
+    {
+      "Name":"Write value 1",
+      "ID":1069400438,
+      "Label":"16",
+      "Position":{
+        "x":-0.37178,
+        "y":1.54837
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1740806931}],
+      "InternalData":null
+    },
+    {
+      "Name":"Open both registers",
+      "ID":1084814485,
+      "Label":"4",
+      "Position":{
+        "x":2.39392,
+        "y":2.42175
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1301799041}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[],
+  "Displays": null
+}

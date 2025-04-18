@@ -1,12 +1,17 @@
 {
+  "Name": "machine",
+  "NameLocation": 0,
   "ChipType": 0,
+  "Size": {
+    "x": 1.175,
+    "y": 2.0
+  },
   "Colour": {
     "r": 0.9864026,
     "g": 0.2574039,
     "b": 0.3922074,
     "a": 1
   },
-  "Displays": null,
   "InputPins":[
     {
       "Name":"IN",
@@ -42,8 +47,6 @@
       "ValueDisplayMode":1
     }
   ],
-  "Name": "machine",
-  "NameLocation": 0,
   "OutputPins":[
     {
       "Name":"OUT",
@@ -79,10 +82,6 @@
       "ValueDisplayMode":1
     }
   ],
-  "Size": {
-    "x": 1.175,
-    "y": 2.0
-  },
   "SubChips":[
     {
       "Name":"Computer",
@@ -138,34 +137,6 @@
     },
     {
       "SourcePinAddress":{
-        "PinID":0,
-        "PinOwnerID":1293494194
-      },
-      "TargetPinAddress":{
-        "PinID":1413104580,
-        "PinOwnerID":43027888
-      },
-      "ConnectionType":0,
-      "ConnectedWireIndex":-1,
-      "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
-    },
-    {
-      "SourcePinAddress":{
-        "PinID":0,
-        "PinOwnerID":829749922
-      },
-      "TargetPinAddress":{
-        "PinID":1793459334,
-        "PinOwnerID":43027888
-      },
-      "ConnectionType":0,
-      "ConnectedWireIndex":-1,
-      "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
-    },
-    {
-      "SourcePinAddress":{
         "PinID":1873040804,
         "PinOwnerID":43027888
       },
@@ -206,5 +177,6 @@
       "ConnectedWireSegmentIndex":-1,
       "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
     }
-  ]
+  ],
+  "Displays": null
 }
